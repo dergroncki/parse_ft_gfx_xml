@@ -34,10 +34,8 @@ fn main(){
     let file_name_out = format!("{}{}{}", "tagnames_", file_name_in, ".txt");
     let mut output = File::create(file_name_out).unwrap();
 
-    //let input = File::open("MachineParameter_TabControl1.xml").unwrap();
-
+    //Create xml reader
     let buffered = BufReader::new(input);
-    
     let mut reader = Reader::from_reader(buffered);
     reader.trim_text(true);
 
