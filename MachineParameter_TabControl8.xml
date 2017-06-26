@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE7.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="243" positionY="83" securityCode="*" backColor="#DADADA" titleBar="false" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="1676" height="848" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" sizeToMainWindow="false" showLastAcquiredValue="false" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="false" interactiveHighlightColor="black" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="silver" gradientStop="50" gradientDirection="gradientDirectionVertical" gradientShadingStyle="gradientVerticalFromBottom"/>
+    <group name="Group1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle2" height="60" width="160" left="160" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText2" height="60" width="156" left="162" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Burner"/>
+        <animations/>
+        <objectKeys tabIndex="27" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl2" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group2" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle3" height="60" width="160" left="319" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText3" height="60" width="156" left="321" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Water Nozzles&#xA;Flat &amp; Full Jet"/>
+        <animations/>
+        <objectKeys tabIndex="29" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl3" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle4" height="60" width="160" left="478" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText4" height="60" width="156" left="480" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Water Nozzles&#xA;TN8 &amp; TN14"/>
+        <animations/>
+        <objectKeys tabIndex="30" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl4" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle5" height="60" width="160" left="637" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText5" height="60" width="156" left="639" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Quench&#xA;Fans"/>
+        <animations/>
+        <objectKeys tabIndex="31" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl5" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group6" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle6" height="60" width="160" left="796" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText6" height="60" width="156" left="798" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Quench"/>
+        <animations/>
+        <objectKeys tabIndex="32" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl6" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group7" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle7" height="60" width="160" left="955" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText7" height="60" width="156" left="957" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Cooling Section"/>
+        <animations/>
+        <objectKeys tabIndex="33" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl7" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group8" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle8" height="60" width="160" left="1114" top="1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText8" height="60" width="156" left="1116" top="1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Water tank"/>
+        <animations/>
+        <objectKeys tabIndex="34" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl8" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group9" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle9" height="60" width="160" left="1273" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText9" height="60" width="156" left="1275" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Positions"/>
+        <animations/>
+        <objectKeys tabIndex="35" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl9" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group10" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle10" height="60" width="160" left="1432" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText10" height="60" width="156" left="1434" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="General"/>
+        <animations/>
+        <objectKeys tabIndex="36" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl10" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <group name="Group3" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="TabCtrlRectangle1" height="60" width="160" left="1" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="TabCtrlText1" height="60" width="156" left="3" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Furnace"/>
+        <animations/>
+        <objectKeys tabIndex="28" focusHighlight="true" currentTag="">
+            <key key="leftMouseButton" controlModifier="false" shiftModifier="false" label="" pressAction="Display MachineParameter_TabControl1" repeatAction="" releaseAction=""/>
+        </objectKeys>
+    </group>
+    <rectangle name="Rectangle" height="787" width="1674" left="1" top="60" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="#919191" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <rectangle name="Polygon1" height="10" width="159" left="1115" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#EDEDED" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="WaterTank" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.WaterTank" linkToolTipText="true">
+        <panel name="Panel5" height="587" width="432" left="217" top="124" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Panel5" linkToolTipText="true" backStyle="solid" patternStyle="none" backColor="#EDEDED" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="raised" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericInput name="NumericInput18" height="21" width="81" left="517" top="375" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput18" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="11" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_T_OUT_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput17" height="21" width="81" left="517" top="353" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput17" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="10" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.ASI_T_IN_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput16" height="21" width="81" left="517" top="331" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput16" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="9" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.ASI_T_IN_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput15" height="21" width="81" left="517" top="309" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput15" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="8" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_LV_OUT_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput14" height="21" width="81" left="517" top="287" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput14" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="7" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_LV_OUT_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput13" height="21" width="81" left="517" top="265" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput13" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="6" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.ASI_IN_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput7" height="21" width="81" left="517" top="243" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput7" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="5" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.ASI_IN_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput6" height="21" width="81" left="517" top="221" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput6" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="4" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_Y_POS_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput5" height="21" width="81" left="517" top="199" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput5" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="3" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_Y_POS_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput4" height="21" width="81" left="517" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput4" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="2" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_Y_POS_IN_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput3" height="21" width="81" left="517" top="155" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput3" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="1" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_Y_POS_IN_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <panel name="Panel6" height="20" width="426" left="221" top="127" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Panel6" linkToolTipText="true" backStyle="solid" patternStyle="none" backColor="#EDEDED" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text5" height="16" width="427" left="220" top="129" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text5" linkToolTipText="true" backStyle="solid" backColor="#EDEDED" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Water tank"/>
+        <text name="Text6" height="16" width="260" left="255" top="158" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text6" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN UNSCALE POSITION DAMPER [4000d]"/>
+        <text name="Text7" height="16" width="13" left="601" top="203" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text7" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text9" height="16" width="271" left="244" top="180" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text9" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAX UNSCALE POSITION DAMPER [20000d]"/>
+        <text name="Text11" height="16" width="235" left="280" top="202" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text11" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN SCALED POSITION DAMPER [0%]"/>
+        <text name="Text12" height="16" width="253" left="262" top="224" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text12" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAX SCALED POSITION DAMPER [100%]"/>
+        <text name="Text13" height="16" width="195" left="320" top="246" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text13" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN ANALOG INPUT ASI [4000d]"/>
+        <text name="Text14" height="16" width="13" left="601" top="225" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text14" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text15" height="16" width="206" left="309" top="268" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text15" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAX ANALOG INPUT ASI [20000d]"/>
+        <text name="Text17" height="16" width="176" left="339" top="290" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text17" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN SCALED WATER LEVEL"/>
+        <text name="Text19" height="16" width="180" left="335" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text19" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAX SCALED WATER LEVEL"/>
+        <text name="Text20" height="16" width="133" left="382" top="334" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text20" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN PT100 INPUS ASI"/>
+        <text name="Text21" height="16" width="137" left="378" top="356" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text21" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAX PT100 INPUS ASI"/>
+        <text name="Text22" height="16" width="181" left="334" top="378" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text22" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN SCALED TEMPERATURE"/>
+        <text name="Text8" height="16" width="13" left="601" top="289" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text8" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text10" height="16" width="13" left="601" top="311" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text10" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text16" height="16" width="15" left="601" top="378" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text16" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+        <numericInput name="NumericInput20" height="21" width="81" left="517" top="441" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput20" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="14" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_CON_OUT_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput21" height="21" width="81" left="517" top="419" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput21" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="13" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_CON_OUT_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput22" height="21" width="81" left="517" top="397" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput22" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="12" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_T_OUT_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text25" height="16" width="185" left="330" top="400" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text25" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAX SCALED TEMPERATURE"/>
+        <text name="Text26" height="16" width="32" left="601" top="445" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text26" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="uS/m"/>
+        <text name="Text27" height="16" width="177" left="338" top="422" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text27" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN SCALED CONDUCTIVITY"/>
+        <text name="Text28" height="16" width="181" left="334" top="444" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text28" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAX SCALED CONDUCTIVITY"/>
+        <text name="Text42" height="16" width="15" left="601" top="399" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text42" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+        <text name="Text43" height="16" width="32" left="601" top="422" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text43" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="uS/m"/>
+        <numericInput name="NumericInput10" height="21" width="81" left="517" top="485" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput10" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="16" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.MIN_LV_EN_FILTER}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput11" height="21" width="81" left="517" top="463" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput11" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="15" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.MIN_LV_EN_RO}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text51" height="16" width="13" left="601" top="489" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text51" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text52" height="16" width="289" left="226" top="466" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text52" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN WATER LEVEL ENABLE FEED RO WATER"/>
+        <text name="Text53" height="16" width="265" left="250" top="488" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text53" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN WATER LEVEL ENABLE FILTER PUMP"/>
+        <text name="Text54" height="16" width="13" left="601" top="466" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text54" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <numericInput name="NumericInput12" height="21" width="81" left="517" top="507" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput12" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="17" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.MIN_LV_EN_PUMP}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput19" height="21" width="81" left="517" top="529" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput19" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="18" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.MIN_LV_EN_RECOOL}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput24" height="21" width="81" left="517" top="551" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput24" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="19" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.FLT_LIM_CON}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput25" height="21" width="81" left="517" top="595" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput25" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="20" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.FLT_LIM_T}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput33" height="21" width="81" left="517" top="639" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput33" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="21" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.BAND_CON}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput34" height="21" width="81" left="517" top="661" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput34" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="22" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.BAND_T_LV1}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput35" height="21" width="81" left="517" top="617" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput35" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="23" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.BAND_LV}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text67" height="16" width="277" left="238" top="510" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text67" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN WATER LEVEL ENABLE QUECH PUMPS"/>
+        <text name="Text71" height="16" width="229" left="286" top="532" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text71" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MIN WATERLEVEL ENABLE CHILLER"/>
+        <text name="Text72" height="16" width="250" left="265" top="554" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text72" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="TRES. FAULT MESSAGE CONDUCTIVITY"/>
+        <text name="Text73" height="16" width="254" left="261" top="598" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text73" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="TRES. FAULT MESSAGE TEMPERATURE"/>
+        <text name="Text74" height="16" width="199" left="316" top="642" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text74" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="CONTROL BAND CONDUCTIVITY"/>
+        <text name="Text75" height="16" width="13" left="601" top="532" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text75" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text76" height="16" width="212" left="303" top="664" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text76" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="CONTROL TEMPERATURE STEP 1"/>
+        <text name="Text77" height="16" width="198" left="317" top="620" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text77" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="CONTROL BAND WATER LEVEL"/>
+        <text name="Text78" height="16" width="32" left="601" top="553" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text78" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="uS/m"/>
+        <numericInput name="NumericInput37" height="21" width="81" left="517" top="573" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput37" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="25" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="2" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.FLT_LIM_LV}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text84" height="16" width="253" left="262" top="576" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text84" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="TRES. FAULT MESSAGE WATER LEVEL "/>
+        <text name="Text85" height="16" width="13" left="601" top="575" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text85" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text86" height="16" width="15" left="601" top="598" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text86" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+        <text name="Text87" height="16" width="32" left="601" top="642" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text87" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="uS/m"/>
+        <text name="Text88" height="16" width="15" left="601" top="662" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text88" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+        <numericInput name="NumericInput1" height="21" width="81" left="517" top="683" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.NumericInput1" linkToolTipText="true" fontFamily="Arial" fontSize="11" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="24" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.BAND_T_LV2}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text2" height="16" width="15" left="601" top="687" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text2" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+        <text name="Text3" height="16" width="212" left="303" top="686" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text3" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="CONTROL TEMPERATURE STEP 2"/>
+        <text name="Text40" height="16" width="13" left="601" top="510" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text40" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text41" height="16" width="13" left="601" top="620" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Text41" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <button name="Button13" height="552" width="83" left="516" top="154" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Water tank.Button13" linkToolTipText="true" style="noborder" captureCursor="false" highlightOnFocus="true" tabIndex="26">
+            <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+            <up patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="transparent" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </up>
+            <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </down>
+            <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+            <animations>
+                <animateVisibility expression="CurrentUserHasCode( M )" expressionTrueState="invisible"/>
+            </animations>
+        </button>
+        <parameters>
+            <parameter name="#1" description="UDT" value="{[PLC2]INIT_3075_QT}"/>
+        </parameters>
+    </group>
+    <group name="InitStruct" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.InitStruct" linkToolTipText="true">
+        <panel name="Panel2" height="338" width="354" left="694" top="124" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Panel2" linkToolTipText="true" backStyle="solid" patternStyle="none" backColor="#EDEDED" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="raised" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericInput name="NumericInput30" height="19" width="74" left="928" top="235" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput1" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="41" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.RUNTIME_ALA}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput31" height="19" width="74" left="928" top="215" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput9" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="40" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.AI_IN_POS_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput38" height="19" width="74" left="928" top="195" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput38" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="39" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.AI_IN_POS_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput39" height="19" width="74" left="928" top="175" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput39" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="38" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_IN_POS_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput40" height="19" width="74" left="928" top="155" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput40" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="37" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_IN_POS_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text1" height="16" width="151" left="774" top="158" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text20" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Scaled position maximum"/>
+        <text name="Text4" height="16" width="147" left="778" top="178" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text33" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Scaled position minimum"/>
+        <text name="Text46" height="16" width="173" left="752" top="198" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text35" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Unscaled maximum raw value"/>
+        <text name="Text47" height="16" width="169" left="756" top="218" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text37" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Unscaled minimum raw value"/>
+        <text name="Text48" height="16" width="190" left="735" top="238" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text44" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Feedback time - Alarm message"/>
+        <text name="Text49" height="16" width="22" left="1004" top="236" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text45" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <numericInput name="NumericInput41" height="19" width="74" left="928" top="255" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput41" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="42" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.C_SET_TEMP_ALARM}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text57" height="16" width="226" left="699" top="258" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text57" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Temperature setpoint - Alarm message"/>
+        <numericInput name="NumericInput42" height="19" width="74" left="928" top="315" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput42" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="45" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_CL_RATE}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput43" height="19" width="74" left="928" top="295" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput43" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="44" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_CYCLE_TIME}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput44" height="19" width="74" left="928" top="275" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput44" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="43" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.TEMP_OFFSET}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text64" height="16" width="98" left="827" top="278" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text64" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Offset for cooling"/>
+        <text name="Text65" height="16" width="124" left="801" top="298" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text65" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Damper control cycle"/>
+        <text name="Text70" height="16" width="93" left="832" top="316" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text70" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Valve close rate"/>
+        <numericInput name="NumericInput45" height="19" width="74" left="928" top="335" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput45" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="46" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_OP_RATE}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text50" height="16" width="93" left="832" top="338" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text72" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Valve close rate"/>
+        <numericInput name="NumericInput46" height="19" width="74" left="928" top="375" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput46" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="48" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_MIN_ON}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput47" height="19" width="74" left="928" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput47" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="47" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_MAX_ON}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text55" height="16" width="108" left="817" top="356" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text73" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Max pulse on time"/>
+        <text name="Text56" height="16" width="104" left="821" top="378" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text74" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Min pulse on time"/>
+        <text name="Text58" height="16" width="22" left="1004" top="357" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text75" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <text name="Text59" height="16" width="22" left="1004" top="376" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text76" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <numericInput name="NumericInput48" height="19" width="74" left="928" top="395" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput48" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="49" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_DEAD_TIME}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text60" height="16" width="91" left="834" top="396" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text77" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Dead time valve"/>
+        <text name="Text61" height="16" width="22" left="1004" top="396" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text78" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <numericInput name="NumericInput49" height="19" width="74" left="928" top="435" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput49" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="51" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_DEAD_DELAY}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput50" height="19" width="74" left="928" top="415" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput50" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="50" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_DEAD_BAND}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text79" height="16" width="130" left="795" top="416" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text79" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Dead band valve reage"/>
+        <text name="Text80" height="16" width="22" left="1004" top="436" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text80" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <text name="Text81" height="16" width="187" left="738" top="436" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text81" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Delay vavle dead band activation"/>
+        <text name="Text82" height="16" width="13" left="1004" top="416" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text82" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text83" height="16" width="13" left="1004" top="176" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text83" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text62" height="16" width="13" left="1004" top="156" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text84" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text63" height="16" width="15" left="1004" top="256" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text85" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+        <text name="Text66" height="16" width="38" left="1004" top="316" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text86" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%/sec"/>
+        <text name="Text68" height="16" width="38" left="1004" top="336" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text87" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%/sec"/>
+        <panel name="Panel3" height="20" width="350" left="696" top="127" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Panel3" linkToolTipText="true" backStyle="solid" patternStyle="none" backColor="#EDEDED" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text69" height="16" width="345" left="699" top="129" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text88" linkToolTipText="true" backStyle="solid" backColor="#EDEDED" foreColor="#26519C" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#2}*/"/>
+        <parameters>
+            <parameter name="#1" description="UDT" value="{[PLC2]INIT_TANK_DAMPER}"/>
+            <parameter name="#2" description="Caption" value="Tank Level Control Damper"/>
+        </parameters>
+    </group>
+    <group name="InitStruct1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.InitStruct" linkToolTipText="true">
+        <panel name="Panel1" height="338" width="354" left="1132" top="124" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Panel2" linkToolTipText="true" backStyle="solid" patternStyle="none" backColor="#EDEDED" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="raised" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericInput name="NumericInput2" height="19" width="74" left="1366" top="235" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput1" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="56" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.RUNTIME_ALA}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput8" height="19" width="74" left="1366" top="215" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput9" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="55" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.AI_IN_POS_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput9" height="19" width="74" left="1366" top="195" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput38" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="54" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.AI_IN_POS_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput23" height="19" width="74" left="1366" top="175" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput39" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="53" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_IN_POS_MAX}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput26" height="19" width="74" left="1366" top="155" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput40" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="52" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.PLC_IN_POS_MIN}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text18" height="16" width="151" left="1212" top="158" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text20" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Scaled position maximum"/>
+        <text name="Text23" height="16" width="147" left="1216" top="178" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text33" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Scaled position minimum"/>
+        <text name="Text24" height="16" width="173" left="1190" top="198" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text35" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Unscaled maximum raw value"/>
+        <text name="Text29" height="16" width="169" left="1194" top="218" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text37" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Unscaled minimum raw value"/>
+        <text name="Text30" height="16" width="190" left="1173" top="238" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text44" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Feedback time - Alarm message"/>
+        <text name="Text31" height="16" width="22" left="1442" top="236" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text45" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <numericInput name="NumericInput27" height="19" width="74" left="1366" top="255" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput41" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="57" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.C_SET_TEMP_ALARM}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text32" height="16" width="226" left="1137" top="258" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text57" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Temperature setpoint - Alarm message"/>
+        <numericInput name="NumericInput28" height="19" width="74" left="1366" top="315" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput42" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="60" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_CL_RATE}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput29" height="19" width="74" left="1366" top="295" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput43" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="59" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_CYCLE_TIME}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput32" height="19" width="74" left="1366" top="275" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput44" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="58" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.TEMP_OFFSET}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text33" height="16" width="98" left="1265" top="278" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text64" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Offset for cooling"/>
+        <text name="Text34" height="16" width="124" left="1239" top="298" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text65" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Damper control cycle"/>
+        <text name="Text35" height="16" width="93" left="1270" top="316" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text70" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Valve close rate"/>
+        <numericInput name="NumericInput36" height="19" width="74" left="1366" top="335" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput45" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="61" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_OP_RATE}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text36" height="16" width="93" left="1270" top="338" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text72" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Valve close rate"/>
+        <numericInput name="NumericInput51" height="19" width="74" left="1366" top="375" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput46" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="63" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_MIN_ON}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput52" height="19" width="74" left="1366" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput47" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="62" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_MAX_ON}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text37" height="16" width="108" left="1255" top="356" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text73" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Max pulse on time"/>
+        <text name="Text38" height="16" width="104" left="1259" top="378" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text74" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Min pulse on time"/>
+        <text name="Text39" height="16" width="22" left="1442" top="357" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text75" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <text name="Text44" height="16" width="22" left="1442" top="376" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text76" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <numericInput name="NumericInput53" height="19" width="74" left="1366" top="395" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput48" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="64" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_DEAD_TIME}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text45" height="16" width="91" left="1272" top="396" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text77" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Dead time valve"/>
+        <text name="Text89" height="16" width="22" left="1442" top="396" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text78" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <numericInput name="NumericInput54" height="19" width="74" left="1366" top="435" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput49" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="66" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_DEAD_DELAY}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput55" height="19" width="74" left="1366" top="415" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.NumericInput50" linkToolTipText="true" fontFamily="Arial" charHeight="15" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="65" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks">
+                <connections>
+                    <connection name="Value" expression="{#1.Y_DEAD_BAND}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text90" height="16" width="130" left="1233" top="416" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text79" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Dead band valve reage"/>
+        <text name="Text91" height="16" width="22" left="1442" top="436" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text80" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="sec"/>
+        <text name="Text92" height="16" width="187" left="1176" top="436" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text81" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="topRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Delay vavle dead band activation"/>
+        <text name="Text93" height="16" width="13" left="1442" top="416" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text82" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text94" height="16" width="13" left="1442" top="176" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text83" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text95" height="16" width="13" left="1442" top="156" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text84" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+        <text name="Text96" height="16" width="15" left="1442" top="256" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text85" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+        <text name="Text97" height="16" width="38" left="1442" top="316" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text86" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%/sec"/>
+        <text name="Text98" height="16" width="38" left="1442" top="336" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text87" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="%/sec"/>
+        <panel name="Panel4" height="20" width="350" left="1134" top="127" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Panel3" linkToolTipText="true" backStyle="solid" patternStyle="none" backColor="#EDEDED" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text99" height="16" width="345" left="1137" top="129" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Damper.Text88" linkToolTipText="true" backStyle="solid" backColor="#EDEDED" foreColor="#26519C" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#2}*/"/>
+        <parameters>
+            <parameter name="#1" description="UDT" value="{[PLC2]INIT_PUMP_BYPAS}"/>
+            <parameter name="#2" description="Caption" value="Bypass Damper Quench Pump"/>
+        </parameters>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Dim myOptions
+
+Const MinDistance = 850
+Const MinDistanceLeft = 10
+Const MinDistanceRight = 20
+
+Const LeftOffset = 240 'Status Window on the left side
+Const TopOffset = 80 'Header
+Const WindowWidth = 1676 'Width of content window
+Const Margin = 5
+
+'==============================================================================
+' Show not implemented window
+'==============================================================================
+
+Public Sub Show_Details_Window_Above_Object(WindowName, myObject)
+
+    'Always use error handling during runtime
+    On Error GoTo ErrHandler
+    '-----------------------
+    
+    Dim AllDisplays As Displays
+    Dim MyDisplay As Display
+    
+    Dim objDisplay
+    
+    Set AllDisplays = Application.LoadedDisplays
+    
+    On Error Resume Next
+        Set MyDisplay = AllDisplays.Item(WindowName)
+    On Error GoTo ErrHandler
+    
+    If MyDisplay Is Nothing Then
+        myOptions = "/T" + myObject.Name
+        'MsgBox ("Window Name: " + "Nothing" + " - " + "Options: " + myOptions)
+    Else
+        If (myOptions = "/T" + myObject.Name) Then
+            'MsgBox ("Unload the Window and exit the Sub")
+            MyDisplay.Unload
+            Exit Sub
+        Else
+            'MsgBox ("Just Unload the Window")
+            myOptions = "/T" + myObject.Name
+            MyDisplay.Unload
+        End If
+    End If
+    
+    Set objDisplay = Application.LoadDisplay(WindowName, myOptions)
+    
+    objDisplay.Top = MinDistance - objDisplay.Height
+    objDisplay.Left = LeftOffset + myObject.Left + (myObject.Width / 2) - (objDisplay.Width / 2)
+    
+    If (myObject.Name = "CtrlBt_StopQuench") Then
+        objDisplay.Left = LeftOffset + myObject.Left + MinDistanceLeft
+    End If
+    
+'    If (myObject.Name = "NameOfObject") Then
+'        objDisplay.Left = LeftOffset + myObject.Left - objDisplay.Width + myObject.Width
+'    End If
+    
+    objDisplay.Visible = True
+    objDisplay.PullForward
+    
+    Exit Sub
+    '-----------------------
+    
+ErrHandler:
+        'Send error message to event log: Picture name + Sub procedure name + Error description
+        LogDiagnosticsMessage "OJD-FT - " + Application.ActiveDisplay.Name + " ShowNotImplementedWindow: " + Err.Description, ftDiagSeverityError
+        Resume Next
+End Sub
+
+'==============================================================================
+' Show local window
+'==============================================================================
+
+Private Sub Show_Details_Window(WindowName, myObject)
+    'Always use error handling during runtime
+    On Error GoTo ErrHandler
+    '-----------------------
+    
+    Dim AllDisplays As Displays
+    Dim MyDisplay As Display
+    
+    Dim objDisplay
+    
+    Set AllDisplays = Application.LoadedDisplays
+    
+    On Error Resume Next
+        Set MyDisplay = AllDisplays.Item(WindowName)
+    On Error GoTo ErrHandler
+    
+    If MyDisplay Is Nothing Then
+        myOptions = "/T" + myObject.Name
+        'MsgBox ("Window Name: " + "Nothing" + " - " + "Options: " + myOptions)
+    Else
+        If (myOptions = "/T" + myObject.Name) Then
+            'MsgBox ("Unload the Window and exit the Sub")
+            MyDisplay.Unload
+            Exit Sub
+        Else
+            'MsgBox ("Just Unload the Window")
+            myOptions = "/T" + myObject.Name
+            MyDisplay.Unload
+        End If
+    End If
+    
+    Set objDisplay = Application.LoadDisplay(WindowName, myOptions)
+        
+    objDisplay.Top = TopOffset + myObject.Top
+    objDisplay.Left = LeftOffset + myObject.Left + myObject.Width + Margin
+    If ((objDisplay.Left + objDisplay.Width) > (LeftOffset + WindowWidth)) Then
+            objDisplay.Left = (LeftOffset + myObject.Left) - objDisplay.Width - Margin
+    End If
+    
+    objDisplay.Visible = True
+    objDisplay.PullForward
+    
+    'MsgBox ("D-Top: " + Str(objDisplay.Top) + " D-Left: " + Str(objDisplay.Left) + " L-Top: " + Str(MyObject.Top) + " L-Left: " + Str(MyObject.Left))
+
+    Exit Sub
+    '-----------------------
+
+ErrHandler:
+        'Send error message to event log: Picture name + Sub procedure name + Error description
+        LogDiagnosticsMessage "OJD-FT - " + Application.ActiveDisplay.Name + " Show_Details_Window: " + Err.Description, ftDiagSeverityError
+        Resume Next
+End Sub
+
+Private Sub Show_Details_Window_withParameter(WindowName, myObject, myParameterName, Above)
+    'Always use error handling during runtime
+    On Error GoTo ErrHandler
+    '-----------------------
+    
+    Dim AllDisplays As Displays
+    Dim MyDisplay As Display
+    
+    Dim objDisplay
+    
+    Set AllDisplays = Application.LoadedDisplays
+    
+    On Error Resume Next
+        Set MyDisplay = AllDisplays.Item(WindowName)
+    On Error GoTo ErrHandler
+    
+    If MyDisplay Is Nothing Then
+        myOptions = "/T" + myParameterName
+        'MsgBox ("Window Name: " + "Nothing" + " - " + "Options: " + myOptions)
+    Else
+        If (myOptions = "/T" + myObject.Name) Then
+            'MsgBox ("Unload the Window and exit the Sub")
+            MyDisplay.Unload
+            Exit Sub
+        Else
+            'MsgBox ("Just Unload the Window")
+            myOptions = "/T" + myParameterName
+            MyDisplay.Unload
+        End If
+    End If
+    
+    Set objDisplay = Application.LoadDisplay(WindowName, myOptions)
+        
+    If Not Above Then
+        objDisplay.Top = TopOffset + myObject.Top
+        objDisplay.Left = LeftOffset + myObject.Left + myObject.Width + Margin
+        If ((objDisplay.Left + objDisplay.Width) > (LeftOffset + WindowWidth)) Then
+                objDisplay.Left = (LeftOffset + myObject.Left) - objDisplay.Width - Margin
+        End If
+    Else
+        objDisplay.Top = TopOffset + myObject.Top - objDisplay.Height - myObject.Height
+        objDisplay.Left = LeftOffset + myObject.Left + myObject.Width + Margin
+        If ((objDisplay.Left + objDisplay.Width) > (LeftOffset + WindowWidth)) Then
+                objDisplay.Left = (LeftOffset + myObject.Left) - objDisplay.Width - Margin
+        End If
+    End If
+    
+    objDisplay.Visible = True
+    objDisplay.PullForward
+    
+    'MsgBox ("D-Top: " + Str(objDisplay.Top) + " D-Left: " + Str(objDisplay.Left) + " L-Top: " + Str(MyObject.Top) + " L-Left: " + Str(MyObject.Left))
+
+    Exit Sub
+    '-----------------------
+
+ErrHandler:
+        'Send error message to event log: Picture name + Sub procedure name + Error description
+        LogDiagnosticsMessage "OJD-FT - " + Application.ActiveDisplay.Name + " Show_Details_Window: " + Err.Description, ftDiagSeverityError
+        Resume Next
+End Sub
+
+Private Sub Show_Window_with_Parameters(WindowName, para)
+    'Always use error handling during runtime
+    On Error GoTo ErrHandler
+    '-----------------------
+    
+    Dim AllDisplays As Displays
+    Dim MyDisplay As Display
+    
+    Dim objDisplay
+    
+    Set AllDisplays = Application.LoadedDisplays
+    
+    On Error Resume Next
+        Set MyDisplay = AllDisplays.Item(WindowName)
+    On Error GoTo ErrHandler
+    
+    If MyDisplay Is Nothing Then
+        myOptions = para
+        'MsgBox ("Window Name: " + "Nothing" + " - " + "Options: " + myOptions)
+    Else
+        If (myOptions = para) Then
+            'MsgBox ("Unload the Window and exit the Sub")
+            MyDisplay.Unload
+            Exit Sub
+        Else
+            'MsgBox ("Just Unload the Window")
+            myOptions = para
+            MyDisplay.Unload
+        End If
+    End If
+    
+    Set objDisplay = Application.LoadDisplay(WindowName, myOptions)
+        
+    objDisplay.Visible = True
+    objDisplay.PullForward
+    
+    'MsgBox ("D-Top: " + Str(objDisplay.Top) + " D-Left: " + Str(objDisplay.Left) + " L-Top: " + Str(MyObject.Top) + " L-Left: " + Str(MyObject.Left))
+
+    Exit Sub
+    '-----------------------
+
+ErrHandler:
+        'Send error message to event log: Picture name + Sub procedure name + Error description
+        LogDiagnosticsMessage "OJD-FT - " + Application.ActiveDisplay.Name + " Show_Details_Window: " + Err.Description, ftDiagSeverityError
+        Resume Next
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

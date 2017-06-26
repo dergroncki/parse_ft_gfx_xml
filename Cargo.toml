@@ -1,0 +1,9 @@
+[package]
+name = "parse_ft_window_xml"
+description = "Retrieve tag names from factory talk window xml"
+version = "0.1.0"
+authors = ["Michael Groncki"]
+
+[dependencies]
+clap = "~2.24"
+quick-xml = "0.8.0"
