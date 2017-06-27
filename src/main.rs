@@ -3,6 +3,8 @@ extern crate quick_xml;
 
 use clap::{Arg, App};
 
+use std::ffi::OsStr;
+
 use std::path::Path;
 
 use std::fs;
@@ -16,23 +18,29 @@ use quick_xml::reader::Reader;
 use quick_xml::events::Event;
 
 fn read_file_names(path: &Path) -> Vec<String> {
-
     let mut names:Vec<String> = Vec::new();
 
-    match fs::read_dir(path.clone()) {
-        Err(why) => println!("! {:?}", why.kind()),
-        Ok(paths) => {
-            names = paths.filter_map(|entry| {
-                    entry.ok().and_then(|e| {
-                        e.path()
-                             .file_name()
-                             .and_then(|n| n.to_str().map(|s| String::from(s)))
-                    })
-                })
-                .collect::<Vec<String>>(); //Transforms the iterator into a collection
-        }
-    };
+    let entries = fs::read_dir(path).unwrap();
 
+    for entry in entries {
+
+        let my_entry = entry.unwrap();
+
+        //Determine the file extention
+        let fullpath = my_entry.path().into_os_string().into_string().unwrap();
+        let file_path = std::path::Path::new(&fullpath);
+        let content_type = match file_path.extension().and_then(OsStr::to_str) {
+                Some("xml") => "text/xml",
+                _ => "",
+        };
+        
+        //Save fullpath if the file extention is "xml"
+        if content_type == "text/xml" {
+            names.push(my_entry.path().into_os_string().into_string().unwrap()); 
+        }
+    }
+
+    //Return filenames
     names
 }
 
@@ -50,18 +58,15 @@ fn main(){
                         .get_matches();    
 
     let path = Path::new(matches.value_of("INPUT").unwrap());
-    println!("{}", path.to_str().unwrap());
-
-    println!("{:?}", read_file_names(path));
 
     for entry in read_file_names(path) {
 
-        let file_name_in = format!("{}\\{}", String::from(path.to_str().unwrap()), entry);
+        let file_name_in = format!("{}", entry);
         println!(); println!("Using input file: {}", file_name_in); println!();
         let input = File::open(file_name_in.clone()).unwrap();
 
         //Output file
-        let file_name_out = format!("{}{}{}{}", String::from(path.to_str().unwrap()), "\\tagnames_", entry, ".txt");
+        let file_name_out = format!("{}{}", entry, ".txt");
         println!(); println!("Using output file: {}", file_name_out); println!();
         let mut output = File::create(file_name_out).unwrap();
 
