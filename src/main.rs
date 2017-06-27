@@ -156,7 +156,15 @@ fn main(){
 
             if tag.contains("[PLC") {
                 for placeholder in &tag_name_placeholder {
-                    final_tag_names.push(placeholder.replace("#1", &String::from(v[1])));
+                    if placeholder.contains("#1") { final_tag_names.push(placeholder.replace("#1", &String::from(v[1]))); }
+                    if placeholder.contains("#2") { final_tag_names.push(placeholder.replace("#2", &String::from(v[1]))); }
+                    if placeholder.contains("#3") { final_tag_names.push(placeholder.replace("#3", &String::from(v[1]))); }
+                    if placeholder.contains("#4") { final_tag_names.push(placeholder.replace("#4", &String::from(v[1]))); }
+                    if placeholder.contains("#5") { final_tag_names.push(placeholder.replace("#5", &String::from(v[1]))); }
+                    if placeholder.contains("#6") { final_tag_names.push(placeholder.replace("#6", &String::from(v[1]))); }
+                    if placeholder.contains("#7") { final_tag_names.push(placeholder.replace("#7", &String::from(v[1]))); }
+                    if placeholder.contains("#8") { final_tag_names.push(placeholder.replace("#8", &String::from(v[1]))); }
+                    if placeholder.contains("#9") { final_tag_names.push(placeholder.replace("#9", &String::from(v[1]))); }
                 }
                 &tag_name_placeholder.clear();
             }
