@@ -4,19 +4,18 @@ extern crate quick_xml;
 use clap::{Arg, App};
 
 use std::ffi::OsStr;
-
 use std::path::Path;
-
 use std::fs;
 use std::fs::File;
 use std::io::Write;
 use std::io::BufReader;
-
 use std::str;
+use std::collections::HashMap;
 
 use quick_xml::reader::Reader;
 use quick_xml::events::Event;
 
+//Read all xml files in a dir 
 fn read_file_names(path: &Path) -> Vec<String> {
     let mut names:Vec<String> = Vec::new();
 
@@ -61,13 +60,14 @@ fn main(){
 
     for entry in read_file_names(path) {
 
+        //Input file
         let file_name_in = format!("{}", entry);
-        println!(); println!("Using input file: {}", file_name_in); println!();
+        println!(); println!("Using input file: {}", file_name_in);
         let input = File::open(file_name_in.clone()).unwrap();
 
         //Output file
         let file_name_out = format!("{}{}", entry, ".txt");
-        println!(); println!("Using output file: {}", file_name_out); println!();
+        println!("Using output file: {}", file_name_out); println!();
         let mut output = File::create(file_name_out).unwrap();
 
         //Create xml reader
@@ -75,102 +75,141 @@ fn main(){
         let mut reader = Reader::from_reader(buffered);
         reader.trim_text(true);
 
-        let mut buf = Vec::new();
+        let mut parameters = HashMap::new(); //save all parameters found during search here
+        let mut final_tag_names:Vec<String> = Vec::new(); //the final tags of a document
 
-        let mut tag_names:Vec<String> = Vec::new(); //save all tags found during search here
+        let mut main_group:bool; //Helper for searching the groups of the document
 
-        // The `Reader` does not implement `Iterator` because it outputs borrowed data (`Cow`s)
-        loop {
+        let mut buf = Vec::new(); //buffer of main reader
+        loop { //Hint: No interator is implemented by the reader because of performance (see quick_xml)
             match reader.read_event(&mut buf) {
-                // Ok(Event::Start(ref e)) => {
+                Ok(Event::Start(ref e)) => {
 
-                //     match e.name() {
-                //         b"group" => {
-                //             let my_result = e.attributes().map(|a| a.unwrap()).collect::<Vec<_>>();
+                    match e.name() {
+                        b"group" => {
+                            for attrib in e.attributes() {
 
-                //             for attrib in e.attributes() {
+                                let my_attrib:quick_xml::events::attributes::Attribute = attrib.unwrap();
 
-                //                 let my_attrib:quick_xml::events::attributes::Attribute = attrib.unwrap();
-
-                //                 let my_key = str::from_utf8(my_attrib.key).unwrap();
-                //                 let my_value = str::from_utf8(my_attrib.value).unwrap();
+                                let my_key = str::from_utf8(my_attrib.key).unwrap();
+                                let my_value = str::from_utf8(my_attrib.value).unwrap();
                                 
-                //                 if my_key == "isReferenceObject" {
-                //                     if my_value == "true" {
-                //                         // println!("The group is reference object!");
-                //                     }
-                //                 }
-                //             }
+                                if my_key == "isReferenceObject" {
+                                    if my_value == "true" {
 
-                //             for rs in &my_result {
-                //                 if str::from_utf8(rs.key).unwrap() == "isReferenceObject" {
-                //                     // println!("{:?}", str::from_utf8(rs.key).unwrap());
-                //                 }
-                //             }
-                //         }    
+                                        main_group = true;
+                                        //println!("The group is reference object!");
+                                        let mut names:Vec<String> = Vec::new(); //save all tags found during search here
+                                        let mut buf_group = Vec::new(); //buffer of group reader
+                                        loop { //check group for any tags
+                                            match reader.read_event(&mut buf_group) {
+                                                Ok(Event::Empty(ref e)) => {
 
-                //         _ => (),
-                //     }
-                // },
+                                                    match e.name() {
+                                                        b"connection" => {
+                                                            let my_result = e.attributes().map(|a| a.unwrap()).collect::<Vec<_>>();
+                                                            //println!("attributes values: {:?} - {:?}", str::from_utf8(my_result[1].key).unwrap(), str::from_utf8(my_result[1].value).unwrap());
+                                                            let tag_helper: Vec<&str> = str::from_utf8(my_result[1].value).unwrap().split(|c| c == '{' || c == '}').collect();
+                                                            if tag_helper.len() >= 2 {
+                                                                names.push(String::from(tag_helper[1]));
+                                                            }
+                                                        },
+
+                                                        b"parameter" => {
+                                                            main_group = false;
+                                                            let my_result = e.attributes().map(|a| a.unwrap()).collect::<Vec<_>>();
+                                                            if str::from_utf8(my_result[2].value).unwrap().contains("{") {                                                                
+                                                                //println!("attributes values: {:?} - {:?}", str::from_utf8(my_result[2].key).unwrap(), str::from_utf8(my_result[2].value).unwrap());
+                                                                let para_helper: Vec<&str> = str::from_utf8(my_result[2].value).unwrap().split(|c| c == '{' || c == '}').collect();
+                                                                parameters.insert(String::from(str::from_utf8(my_result[0].value).unwrap()), String::from(para_helper[1]));
+                                                            }
+                                                        },
+
+                                                        _ => (),
+                                                    }
+                                                },
+                                                Ok(Event::End(ref e)) => {
+                                                        match e.name() {
+                                                            b"group" => {
+                                                                if main_group == false {
+                                                                    //println!("End of group reached!");
+                                                                    break;
+                                                                }
+                                                            },
+                                                            _ => (),
+                                                        }
+                                                },
+                                                Err(e) => panic!("Error at position {}: {:?}", reader.buffer_position(), e),
+                                                _ => (), // There are several other `Event`s we do not consider here
+                                            }
+                                        } //End of loop
+
+                                        buf_group.clear();
+
+                                        //Complete and save all tags of the group
+                                        for my_tag in &names {
+                                            //Remove curly braces 
+                                            let tag_parts: Vec<&str> = my_tag.split(|c| c == '.').collect();
+                                            //println!("parameter: {:?}", tag_parts[0]);
+                                            if parameters.contains_key(tag_parts[0]) {
+                                                final_tag_names.push(my_tag.replace(tag_parts[0], parameters.get_mut(tag_parts[0]).unwrap()));
+                                                //println!("final tag: {:?}", my_tag.replace(tag_parts[0], parameters.get_mut(tag_parts[0]).unwrap()));
+                                            }
+                                        }
+                                        //Delete the parameters of the group
+                                        if parameters.len() > 0 {
+                                            parameters.clear();
+                                            names.clear();
+                                        }
+
+                                    }
+                                }
+                            }
+                        }    
+                        _ => (), //Nothing else to do
+                    }
+                }, //Start event
+
                 Ok(Event::Empty(ref e)) => {
 
                     match e.name() {
                         b"connection" => {
                             let my_result = e.attributes().map(|a| a.unwrap()).collect::<Vec<_>>();
                             // println!("attributes values: {:?} - {:?}", str::from_utf8(my_result[1].key).unwrap(), str::from_utf8(my_result[1].value).unwrap());
-                            tag_names.push(String::from(str::from_utf8(my_result[1].value).unwrap()));
+                            let my_name = String::from(str::from_utf8(my_result[1].value).unwrap()); 
+                            if my_name.contains("#") {
+                                println!("Error - no placeholder tags should be found here");
+                            }
+                            else {
+                                //println!("{:?}", my_name);
+                                if my_name.contains("{") & my_name.contains("}") {
+                                    let v: Vec<&str> = my_name.split(|c| c == '{' || c == '}').collect();
+                                    final_tag_names.push(String::from(v[1]));
+                                }
+                            }
                         },
 
                         b"parameter" => {
-                            let my_result = e.attributes().map(|a| a.unwrap()).collect::<Vec<_>>();
-                            if str::from_utf8(my_result[2].value).unwrap().contains("{") {
-                                // println!("attributes values: {:?} - {:?}", str::from_utf8(my_result[2].key).unwrap(), str::from_utf8(my_result[2].value).unwrap());
-                                tag_names.push(String::from(str::from_utf8(my_result[2].value).unwrap()));
-                            }
+                            println!("Error - no parameters should be found here");
                         },
 
                         _ => (),
                     }
-                },
+                }, // Empty event
+
                 Ok(Event::Eof) => break, // exits the loop when reaching end of file
+
                 Err(e) => panic!("Error at position {}: {:?}", reader.buffer_position(), e),
-                _ => (), // There are several other `Event`s we do not consider here
+
+                _ => (), //Nothing to do
             }
 
-            // if we don't keep a borrow elsewhere, we can clear the buffer to keep memory usage low
+            // clear buffer of reader
             buf.clear();
         }
 
         println!("--- Tagnames ---");
         
-        let mut tag_name_placeholder:Vec<String> = Vec::new(); //save tags which contains a placeholder here
-        let mut final_tag_names:Vec<String> = Vec::new(); //the final tags
-
-        for tag in tag_names {
-            //Remove curly braces 
-            let v: Vec<&str> = tag.split(|c| c == '{' || c == '}').collect();
-
-            if tag.contains("#") {
-                tag_name_placeholder.push(String::from(v[1])); 
-            }
-
-            if tag.contains("[PLC") {
-                for placeholder in &tag_name_placeholder {
-                    if placeholder.contains("#1") { final_tag_names.push(placeholder.replace("#1", &String::from(v[1]))); }
-                    if placeholder.contains("#2") { final_tag_names.push(placeholder.replace("#2", &String::from(v[1]))); }
-                    if placeholder.contains("#3") { final_tag_names.push(placeholder.replace("#3", &String::from(v[1]))); }
-                    if placeholder.contains("#4") { final_tag_names.push(placeholder.replace("#4", &String::from(v[1]))); }
-                    if placeholder.contains("#5") { final_tag_names.push(placeholder.replace("#5", &String::from(v[1]))); }
-                    if placeholder.contains("#6") { final_tag_names.push(placeholder.replace("#6", &String::from(v[1]))); }
-                    if placeholder.contains("#7") { final_tag_names.push(placeholder.replace("#7", &String::from(v[1]))); }
-                    if placeholder.contains("#8") { final_tag_names.push(placeholder.replace("#8", &String::from(v[1]))); }
-                    if placeholder.contains("#9") { final_tag_names.push(placeholder.replace("#9", &String::from(v[1]))); }
-                }
-                &tag_name_placeholder.clear();
-            }
-            
-        }
-
         //print tag names to screen
         for name in final_tag_names {
             println!("{:?}", name);
