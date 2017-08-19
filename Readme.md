@@ -14,6 +14,8 @@ Open the command prompt and run the programm with the path to the folder which c
 Retrieve the tags of one or more FactoryTalk View Display(s) by running parse_gfx_xml from the command line with the path to the xml-files as argument (in this case "c:\temp"):
 
 > parse_gfx_xml c:\temp
+
+You will find the windows exe-file here: parse_ft_gfx_xml/public/
 ```
 
 You can run the tool with cargo as well:
